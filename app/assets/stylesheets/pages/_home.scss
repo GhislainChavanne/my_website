@@ -125,6 +125,7 @@
     letter-spacing: 2px;
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
   }
   a {
     color: #163172;
@@ -138,9 +139,12 @@
   }
   button {
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 10px;
+    right: 10px;
     z-index: 100;
+  }
+  button:focus {
+    outline: none;
   }
 }
 
