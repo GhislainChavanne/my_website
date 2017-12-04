@@ -47,7 +47,7 @@
   }
   img {
     margin: auto;
-    width: 100px;
+    width: 150px;
     border-radius: 50%;
     border: 4px solid white;
     box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
@@ -67,7 +67,7 @@
 .card {
   width: 70%;
   margin: auto;
-  height: 270px;
+  height: 220px;
   background-color: white;
   padding: 20px;
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
@@ -75,7 +75,7 @@
   position: relative;
   .img {
     background-color: #1E56A0;
-    height: 150px;
+    height: 100px;
     width: 100%;
     color: white;
     display: flex;
@@ -91,7 +91,6 @@
       h4 {
       color: #163172;
       letter-spacing: 2px;
-      font-weight: 700;
       font-family: 'Open Sans', sans-serif;
       font-weight: 800;
     }
@@ -118,7 +117,6 @@
 
 .modal-content {
   padding: 40px;
-  padding-top: 80px;
   position: relative;
   border-bottom: 20px solid #163172;
   h2 {
@@ -127,10 +125,6 @@
     letter-spacing: 2px;
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    margin: 0px;
   }
   a {
     color: #163172;
@@ -146,6 +140,63 @@
     position: absolute;
     top: 5px;
     right: 5px;
+    z-index: 100;
+  }
+}
+
+
+.carousel {
+  width: 100%;
+  align-items: center;
+  img {
+    margin: auto;
+  }
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 50px;
+}
+
+#myCarousel {
+  width: 100%;
+  background-color: white;
+  clear: left;
+}
+
+.item {
+  color: white;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-fade {
+  .carousel-inner {
+    .item {
+          transition-property: opacity;
+        }
+
+    .item,
+    .active.left,
+    .active.right {
+       opacity: 0;
+      }
+
+    .active,
+    .next.left,
+    .prev.right {
+        opacity: 1;
+    }
+
+    .next,
+    .prev,
+    .active.left,
+    .active.right {
+        left: 0;
+        transform: translate3d(0, 0, 0);
+    }
   }
 }
 
