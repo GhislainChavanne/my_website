@@ -1,67 +1,69 @@
 <div class="wrapper">
-<div>
+  <div>
 
-  <div class="top">
-   <%= image_tag 'zguy.jpg'  %>
-   <%= image_tag 'top.png', id: "top"  %>
-    <h2 class="text-center" id="title">Ghislain Chavanne</h2>
-    <h4>Développeur Full-Stack</h4>
-  </div>
-
-
-  <div class="social">
-    <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-    <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
-  </div>
+    <div class="top">
+     <%= image_tag 'zguy.jpg'  %>
+     <%= image_tag 'top.png', id: "top"  %>
+      <h2 class="text-center" id="title">Ghislain Chavanne</h2>
+      <h4>Développeur Full-Stack</h4>
+    </div>
 
 
+    <div class="social">
+      <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+      <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+    </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card">
-          <button type="button" data-toggle="modal" data-target=".bs-example-modal-sm">
-          </button>
-          <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4500">
-            <div class="carousel-inner" role="listbox">
-              <div class="item active" style="background-image: url('<%= image_path("pic1.png") %>');"></div>
-              <div class="item" style="background-image: url('<%= image_path("pic2.png") %>');"></div>
-              <div class="item" style="background-image: url('<%= image_path("pic3.png") %>');"></div>
-              <div class="item" style="background-image: url('<%= image_path("pic4.png") %>');"></div>
-              <div class="item" style="background-image: url('<%= image_path("pic5.png") %>');"></div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <button type="button" data-toggle="modal" data-target=".bs-example-modal-sm">
+            </button>
+            <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4500">
+              <div class="carousel-inner" role="listbox">
+                <div class="item active" style="background-image: url('<%= image_path("pic1.png") %>');"></div>
+                <div class="item" style="background-image: url('<%= image_path("pic2.png") %>');"></div>
+                <div class="item" style="background-image: url('<%= image_path("pic3.png") %>');"></div>
+                <div class="item" style="background-image: url('<%= image_path("pic4.png") %>');"></div>
+                <div class="item" style="background-image: url('<%= image_path("pic5.png") %>');"></div>
+              </div>
+            </div>
+            <div class="text-card">
+              <h4>Projets</h4>
             </div>
           </div>
-          <div class="text-card">
-            <h4>Projets</h4>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+          <button type="button" data-toggle="modal" data-target=".bs-example-modal-sm1">
+          </button>
+            <div class="img">
+              <i class="fa fa-tasks" aria-hidden="true"></i>
+            </div>
+            <div class="text-card">
+              <h4>Skills</h4>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-        <button type="button" data-toggle="modal" data-target=".bs-example-modal-sm1">
-        </button>
-          <div class="img">
-            <i class="fa fa-tasks" aria-hidden="true"></i>
-          </div>
-          <div class="text-card">
-            <h4>Skills</h4>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-        <button type="button" data-toggle="modal" data-target=".bs-example-modal-sm2">
-        </button>
-          <div class="img">
-            <i class="fa fa-telegram" aria-hidden="true"></i>
-          </div>
-          <div class="text-card">
-            <h4>Contact</h4>
+        <div class="col-md-4">
+          <div class="card">
+          <button type="button" data-toggle="modal" data-target=".bs-example-modal-sm2">
+          </button>
+            <div class="img">
+              <i class="fa fa-telegram" aria-hidden="true"></i>
+            </div>
+            <div class="text-card">
+              <h4>Contact</h4>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
 
 <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -95,7 +97,7 @@
         Je suis curieux et à l'écoute et les challenges ne me font pas peur ! <br>
         </p>
     </div>
-    </div>
+  </div>
 </div>
 
 <div class="modal fade bs-example-modal-sm2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
