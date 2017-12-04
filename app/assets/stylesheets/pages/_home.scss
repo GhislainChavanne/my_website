@@ -4,6 +4,28 @@
   min-height: 100vh;
   padding: 40px;
   position: relative;
+  #top {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    border-radius: 0px;
+    border: none;
+    box-shadow: none;
+    width: 70px;
+  }
+}
+
+.social {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: flex;
+  flex-flow: column;
+  font-size: 20px;
+  a {
+    color: #163172;
+    text-decoration: none;
+  }
 }
 
 .top {
@@ -68,9 +90,10 @@
     justify-content: space-around;
       h4 {
       color: #163172;
-      font-weight: bold;
       letter-spacing: 2px;
       font-weight: 700;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 800;
     }
   }
   button {
