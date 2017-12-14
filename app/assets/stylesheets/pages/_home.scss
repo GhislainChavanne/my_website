@@ -10,7 +10,7 @@
   border: 12px solid white;
   background-size: cover !important;
   background-repeat: none;
-  #top {
+  img {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -43,6 +43,12 @@
   flex-flow: column;
   align-items: center;
   width: auto;
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    margin-bottom: 0px;
+    color: #1D3557;
+  }
   h4 {
     color: #1D3557;
     font-weight: bold;
@@ -60,13 +66,6 @@
     margin-top: 10px;
     margin-bottom: 0px;
     text-align: left;
-  }
-
-  h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    margin-bottom: 0px;
-    color: #1D3557;
   }
 }
 
