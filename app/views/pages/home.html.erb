@@ -1,10 +1,11 @@
-<div class="wrapper">
+<div class="wrapper" style="background-image: url('<%= image_path("code.jpeg") %>');">
   <div>
 
     <div class="top">
      <%= image_tag 'zguy.jpg', id: "top" %>
       <h2 class="text-center" id="title">Ghislain Chavanne</h2>
       <h4>Développeur Full-Stack</h4>
+      <h5><i class="fa fa-map-pin" aria-hidden="true"></i> Paris, France</h5>
     </div>
 
 
@@ -17,16 +18,19 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-lg-4 col-xs-12">
           <div class="card">
             <button type="button" data-toggle="modal" data-target=".bs-example-modal-sm">
             </button>
+            <div class="img">
+              <i class="fa fa-desktop" aria-hidden="true"></i>
+            </div>
             <div class="text-card">
               <h4>Projets</h4>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4 col-xs-12">
           <div class="card">
           <button type="button" data-toggle="modal" data-target=".bs-example-modal-sm1">
           </button>
@@ -38,7 +42,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4 col-xs-12">
           <div class="card">
           <button type="button" data-toggle="modal" data-target=".bs-example-modal-sm2">
           </button>
@@ -52,6 +56,7 @@
         </div>
       </div>
     </div>
+
   </div>
 </div>
 

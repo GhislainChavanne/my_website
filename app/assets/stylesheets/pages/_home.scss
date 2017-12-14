@@ -1,6 +1,6 @@
 // Specific CSS for your home-page
 .wrapper {
-  background-color: #FFE066;
+  background-color: #A8DADC;
   min-height: 100vh;
   padding: 40px;
   position: relative;
@@ -8,7 +8,9 @@
   align-items: center;
   flex-flow: column;
   justify-content: space-around;
-  border: 20px solid white;
+  border: 12px solid white;
+  background-size: cover !important;
+  background-repeat: none;
   #top {
     position: absolute;
     top: 10px;
@@ -32,7 +34,7 @@
   flex-flow: column;
   font-size: 20px;
   a {
-    color: #247BA0;
+    color: #1D3557;
     text-decoration: none;
   }
 }
@@ -43,19 +45,29 @@
   align-items: center;
   width: auto;
   h4 {
-    color: #247BA0;
+    color: #1D3557;
     font-weight: bold;
     letter-spacing: 2px;
     font-weight: 700;
-    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: left;
   }
+  h5 {
+    color: #1D3557;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+
   h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     margin-bottom: 0px;
-    color: #247BA0;
-  }
-  img {
+    color: #1D3557;
   }
 }
 
@@ -64,13 +76,13 @@
 }
 
 #title {
-  color: #247BA0;
+  color: #1D3557;
   font-weight: 800;
   letter-spacing: 2px;
 }
 
 .card {
-  width: 70%;
+  width: 80%;
   margin: auto;
   height: 220px;
   background-color: white;
@@ -78,8 +90,9 @@
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   margin-bottom: 30px;
   position: relative;
+  border-bottom: 10px solid #457B9D;
   .img {
-    background-color: #247BA0;
+    background-color: #457B9D;
     height: 100px;
     width: 100%;
     color: white;
@@ -91,10 +104,10 @@
   .text-card {
     display: flex;
     align-items: center;
-    height: 120px;
+    height: 100px;
     justify-content: space-around;
       h4 {
-      color: #247BA0;
+      color: #1D3557;
       letter-spacing: 2px;
       font-family: 'Open Sans', sans-serif;
       font-weight: 800;
@@ -124,7 +137,7 @@
   padding: 40px;
   position: relative;
   h2 {
-    color: #163172;
+    color: #1D3557;
     font-weight: bold;
     letter-spacing: 2px;
     font-weight: 800;
@@ -132,12 +145,12 @@
     margin-bottom: 40px;
   }
   a {
-    color: #163172;
+    color: #1D3557;
     letter-spacing: 2px;
     font-family: 'Open Sans', sans-serif;
   }
   p {
-    color: #163172;
+    color: #1D3557;
     letter-spacing: 2px;
     font-family: 'Open Sans', sans-serif;
   }
